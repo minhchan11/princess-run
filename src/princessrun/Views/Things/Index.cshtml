@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Test Things";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IEnumerable<princessrun.Models.Thing>
+<ul>
+    @foreach (var thing in Model)
+    {
+        <li>@thing.Name</li>
+    }
+    </ul>

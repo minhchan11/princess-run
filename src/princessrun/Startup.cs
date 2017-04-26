@@ -10,6 +10,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using princessrun.Models;
 
 
 namespace princessrun
@@ -27,16 +29,18 @@ namespace princessrun
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            //services.AddEntityFramework()
-            //    .AddDbContext<GummyContext>(options =>
-            //        options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"])); services.AddEntityFramework()
-            //     .AddDbContext<GummyContext>(options =>
-            //         options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddEntityFramework()
+     .AddDbContext<ApplicationDbContext>(options =>
+         options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            app.UseIdentity();
             loggerFactory.AddConsole();
 
             if (env.IsDevelopment())
@@ -48,7 +52,7 @@ namespace princessrun
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Account}/{action=Index}/{id?}");
             });
             app.UseStaticFiles();
             app.Run(async (context) =>

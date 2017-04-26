@@ -1,7 +1,30 @@
-﻿<h5>Hello Princess</h5>
+﻿@using System.Security.Claims
+
+<h5>Hello Princess @User.Identity.Name</h5>
 <link rel="stylesheet" type="text/css" href="~/css/styles.css" />
 <script src="https://code.jquery.com/jquery-3.2.1.js"
         integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
         crossorigin="anonymous"></script>
 <script src="~/js/script.js"></script>
 <canvas id="canvas"></canvas>
+
+@model IEnumerable<princessrun.Models.Item>
+
+<h2>Here is your list of tasks, @User.Identity.Name</h2>
+<hr />
+
+@if (Model.Any())
+{
+    <ul>
+        @foreach (var listItem in Model)
+        {
+            <li>@Html.DisplayFor(modelItem => listItem.Description)</li>
+        }
+    </ul>
+}
+else
+{
+    <p>No tasks have been added yet!</p>
+}
+
+@Html.ActionLink("Create new", "Create")

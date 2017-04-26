@@ -1,6 +1,8 @@
 ﻿#canvas {
     width: 520px;
     height: 480px;
+    background-image: url('../img/background3.gif');
+    background-size: cover;
 }
 
 h5{

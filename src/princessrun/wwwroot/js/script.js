@@ -9,7 +9,7 @@
     bgImage.onload = function () {
         bgReady = true;
     };
-    bgImage.src = "../img/background.png";
+    bgImage.src = "../img/background2.png";
     var hero = {
         speed: 256, // movement in pixels per second
         x: 0,
@@ -24,7 +24,8 @@
 
     var monster = {
         x: 0,
-        y: 0
+        y: 0,
+        velocity: 2
     };
     var monsterReady = false;
     var monsterImage = new Image();
@@ -46,15 +47,15 @@
     }, false);
 
     addEventListener("keypress", function (e) {
-        if (e.keyCode == 32 && jump === false) {
+        if (e.keyCode === 32 && jump === false) {
             jump = true;
             var jumpup = setInterval(function () {
-                hero.y = hero.y - 20;
-                if (hero.y == 200)
+                hero.y = hero.y - 16;
+                if (hero.y <= 200)
                 {
                     var jumpdown = setInterval(function () {
-                        hero.y = hero.y + 20;
-                        if (hero.y == 400) {
+                        hero.y = hero.y + 16;
+                        if (hero.y >= 400) {
                             jump = false;
                         clearInterval(jumpdown);
                         }
@@ -79,13 +80,14 @@
     };
 
     var resetMonster = function () {
-        monster.x = hero.x + (Math.random() * (canvas.width - 64));
+        monster.x = hero.x + (Math.random() * (canvas.width - hero.x-30));
         monster.y = 420;
+        monster.velocity = Math.random()*4 +1;
     };
 
     // Update game objects
     var update = function (modifier) {
-        monster.x -= 2;
+        monster.x -= monster.velocity;
         if (monster.x <= -50) {
             resetMonster();
         }
@@ -100,6 +102,7 @@
             hero.x += hero.speed * modifier;
             }
         };
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         // Are they touching?
         if (
