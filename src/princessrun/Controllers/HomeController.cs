@@ -27,6 +27,7 @@ namespace princessrun.Controllers
         {
             var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             var currentUser = await _userManager.FindByIdAsync(userId);
+            //ViewBag.items = _db.Items.Where(x => x.User.Id == currentUser.Id);
             return View(_db.Heroes.Where(x => x.User.Id == currentUser.Id).FirstOrDefault());
         }
 

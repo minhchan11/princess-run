@@ -10,9 +10,13 @@
 
 @model princessrun.Models.Hero
 
-<h2>Here is your list of tasks, @User.Identity.Name</h2>
+<h2>Your avatar @User.Identity.Name</h2>
 <hr />
 
+@*@foreach(var item in (IEnumerable<princessrun.Models.Item>)ViewData["items"])
+{
+    <li>@item.Description</li>
+}*@
 
 @if (Model != null)
 {
