@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\bin\Debug\netcoreapp1.0\princessrun.Tests.dll
+--temp-output:C:\Users\epicodus\desktop\princess-run\princessrun.Tests\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\desktop\princess-run\princessrun.Tests\bin\Debug\netcoreapp1.0\princessrun.Tests.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -12,6 +12,7 @@
 --version:1.0.0.0
 --informational-version:1.0.0
 --target-framework:.NETCoreApp,Version=v1.0
+--reference:C:\Users\epicodus\.nuget\packages\Castle.Core\4.0.0\lib\netstandard1.3\Castle.Core.dll
 --reference:C:\Users\epicodus\.nuget\packages\dotnet-test-xunit\2.2.0-preview2-build1029\lib\netcoreapp1.0\dotnet-test-xunit.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.AspNet.Http.Abstractions\1.0.0-rc1-final\lib\dotnet5.4\Microsoft.AspNet.Http.Abstractions.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.AspNet.Http.Extensions\1.0.0-rc1-final\lib\dotnet5.4\Microsoft.AspNet.Http.Extensions.dll
@@ -100,6 +101,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Win32.Primitives\4.3.0\ref\netstandard1.3\Microsoft.Win32.Primitives.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Win32.Registry\4.3.0\ref\netstandard1.3\Microsoft.Win32.Registry.dll
+--reference:C:\Users\epicodus\.nuget\packages\Moq\4.7.8\lib\netstandard1.3\Moq.dll
 --reference:C:\Users\epicodus\.nuget\packages\Newtonsoft.Json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll
 --reference:C:\Users\epicodus\.nuget\packages\NuGet.Common\3.5.0-beta2-1484\lib\netstandard1.3\NuGet.Common.dll
 --reference:C:\Users\epicodus\.nuget\packages\NuGet.Frameworks\3.5.0-beta2-1484\lib\netstandard1.3\NuGet.Frameworks.dll
@@ -115,6 +117,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Collections.Concurrent\4.3.0\ref\netstandard1.3\System.Collections.Concurrent.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Collections.Immutable\1.3.0\lib\netstandard1.0\System.Collections.Immutable.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Collections.NonGeneric\4.3.0\ref\netstandard1.3\System.Collections.NonGeneric.dll
+--reference:C:\Users\epicodus\.nuget\packages\System.Collections.Specialized\4.3.0\ref\netstandard1.3\System.Collections.Specialized.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.ComponentModel\4.3.0\ref\netstandard1.0\System.ComponentModel.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.ComponentModel.Annotations\4.3.0\ref\netstandard1.4\System.ComponentModel.Annotations.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.ComponentModel.Primitives\4.3.0\ref\netstandard1.0\System.ComponentModel.Primitives.dll
@@ -128,6 +131,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Diagnostics.Process\4.1.0\ref\netstandard1.4\System.Diagnostics.Process.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Diagnostics.StackTrace\4.0.1\ref\netstandard1.3\System.Diagnostics.StackTrace.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Diagnostics.Tools\4.3.0\ref\netstandard1.0\System.Diagnostics.Tools.dll
+--reference:C:\Users\epicodus\.nuget\packages\System.Diagnostics.TraceSource\4.0.0\ref\netstandard1.3\System.Diagnostics.TraceSource.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Diagnostics.Tracing\4.3.0\ref\netstandard1.5\System.Diagnostics.Tracing.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Dynamic.Runtime\4.3.0\ref\netstandard1.3\System.Dynamic.Runtime.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Globalization\4.3.0\ref\netstandard1.3\System.Globalization.dll
@@ -158,6 +162,9 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.ObjectModel\4.3.0\ref\netstandard1.3\System.ObjectModel.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Reflection\4.3.0\ref\netstandard1.5\System.Reflection.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Reflection.DispatchProxy\4.0.1\ref\netstandard1.3\System.Reflection.DispatchProxy.dll
+--reference:C:\Users\epicodus\.nuget\packages\System.Reflection.Emit\4.3.0\ref\netstandard1.1\System.Reflection.Emit.dll
+--reference:C:\Users\epicodus\.nuget\packages\System.Reflection.Emit.ILGeneration\4.3.0\ref\netstandard1.0\System.Reflection.Emit.ILGeneration.dll
+--reference:C:\Users\epicodus\.nuget\packages\System.Reflection.Emit.Lightweight\4.3.0\ref\netstandard1.0\System.Reflection.Emit.Lightweight.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Reflection.Extensions\4.3.0\ref\netstandard1.0\System.Reflection.Extensions.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Reflection.Metadata\1.3.0\lib\netstandard1.1\System.Reflection.Metadata.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Reflection.Primitives\4.3.0\ref\netstandard1.0\System.Reflection.Primitives.dll
@@ -173,6 +180,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Loader\4.0.0\ref\netstandard1.5\System.Runtime.Loader.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Numerics\4.3.0\ref\netstandard1.1\System.Runtime.Numerics.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Serialization.Primitives\4.1.1\ref\netstandard1.3\System.Runtime.Serialization.Primitives.dll
+--reference:C:\Users\epicodus\.nuget\packages\System.Runtime.WindowsRuntime\4.0.10\ref\dotnet\System.Runtime.WindowsRuntime.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Claims\4.3.0\ref\netstandard1.3\System.Security.Claims.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Cryptography.Algorithms\4.3.0\ref\netstandard1.6\System.Security.Cryptography.Algorithms.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Cryptography.Encoding\4.3.0\ref\netstandard1.3\System.Security.Cryptography.Encoding.dll
@@ -194,13 +202,15 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
+--reference:C:\Users\epicodus\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
+--reference:C:\Users\epicodus\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.abstractions\2.0.1-rc2\lib\netstandard1.0\xunit.abstractions.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.assert\2.1.0\lib\dotnet\xunit.assert.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.extensibility.core\2.1.0\lib\dotnet\xunit.core.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.extensibility.execution\2.1.0\lib\dotnet\xunit.execution.dotnet.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll
---reference:C:\Users\epicodus\Desktop\princess-run\src\princessrun\bin\Debug\netcoreapp1.0\princessrun.dll
-C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\ThingTest.cs
-C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\ControllerTests\ThingControllerTest.cs
-C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\Properties\AssemblyInfo.cs
+--reference:C:\Users\epicodus\desktop\princess-run\src\princessrun\bin\Debug\netcoreapp1.0\princessrun.dll
+C:\Users\epicodus\desktop\princess-run\princessrun.Tests\ThingTest.cs
+C:\Users\epicodus\desktop\princess-run\princessrun.Tests\ControllerTests\ThingControllerTest.cs
+C:\Users\epicodus\desktop\princess-run\princessrun.Tests\Properties\AssemblyInfo.cs
