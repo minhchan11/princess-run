@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using princessrun.Models;
 using Microsoft.AspNetCore.Identity;
 using princessrun.ViewModels;
+using Microsoft.AspNetCore.Http;
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Security.Claims;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -76,5 +80,34 @@ namespace princessrun.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index");
         }
+
+        public IActionResult Avatar()
+        {
+            Hero hero1 = new Hero();
+            return View(hero1);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Avatar(Hero model, IFormFile avatar)
+        {
+            byte[] m_bytes = ConvertToBytes(avatar);
+            model.Avatar = m_bytes;
+            var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            var currentUser = await _userManager.FindByIdAsync(userId);
+            model.User = currentUser;
+            _db.Heroes.Add(model);
+            _db.SaveChanges();
+            return RedirectToAction("Index", "Home");
+        }
+
+        private byte[] ConvertToBytes(IFormFile image)
+        {
+            byte[] CoverImageBytes = null;
+
+            BinaryReader reader = new BinaryReader(image.OpenReadStream());
+            CoverImageBytes = reader.ReadBytes((int)image.Length);
+            return CoverImageBytes;
+        }
+        
     }
 }

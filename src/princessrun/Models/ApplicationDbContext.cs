@@ -24,5 +24,6 @@ namespace princessrun.Models
         }
         public DbSet<Item> Items { get; set; }
         public DbSet<Thing> Things { get; set; }
+        public DbSet<Hero> Heroes { get; set; }
     }
 }

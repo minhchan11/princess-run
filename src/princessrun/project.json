@@ -4,7 +4,6 @@
       "version": "1.0.1",
       "type": "platform"
     },
-
     "Microsoft.AspNetCore.Mvc": "1.0.0",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.EntityFrameworkCore": "1.1.1",
@@ -19,7 +18,9 @@
       "type": "build"
     },
     "Microsoft.AspNetCore.StaticFiles": "1.0.0",
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.1"
+    "Microsoft.AspNet.Http.Extensions": "1.0.0-*",
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.1",
+    "System.Runtime.WindowsRuntime": "4.0.10"
   },
 
   "tools": {

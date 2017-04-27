@@ -8,23 +8,18 @@
 <script src="~/js/script.js"></script>
 <canvas id="canvas"></canvas>
 
-@model IEnumerable<princessrun.Models.Item>
+@model princessrun.Models.Hero
 
 <h2>Here is your list of tasks, @User.Identity.Name</h2>
 <hr />
 
-@if (Model.Any())
+
+@if (Model != null)
 {
-    <ul>
-        @foreach (var listItem in Model)
-        {
-            <li>@Html.DisplayFor(modelItem => listItem.Description)</li>
-        }
-    </ul>
-}
-else
-{
-    <p>No tasks have been added yet!</p>
+    var bytes = Model.Avatar;
+    var base64 = Convert.ToBase64String(bytes);
+    var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+    <img src="@imgsrc"/>
 }
 
 @Html.ActionLink("Create new", "Create")
