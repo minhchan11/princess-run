@@ -19,8 +19,7 @@
     },
     "Microsoft.AspNetCore.StaticFiles": "1.0.0",
     "Microsoft.AspNet.Http.Extensions": "1.0.0-*",
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.1",
-    "System.Runtime.WindowsRuntime": "4.0.10"
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.1"
   },
 
   "tools": {

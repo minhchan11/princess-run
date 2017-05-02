@@ -1716,7 +1716,7 @@
           }
         }
       },
-      "Moq/4.7.8": {
+      "Moq/4.7.9": {
         "type": "package",
         "dependencies": {
           "Castle.Core": "4.0.0",
@@ -3605,17 +3605,6 @@
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         }
       },
-      "System.Runtime.WindowsRuntime/4.0.10": {
-        "type": "package",
-        "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet/System.Runtime.WindowsRuntime.dll": {}
-        }
-      },
       "System.Security.Claims/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4409,8 +4398,7 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "1.0.0",
           "Microsoft.Extensions.Logging.Console": "1.0.0",
-          "Microsoft.NETCore.App": "1.0.1",
-          "System.Runtime.WindowsRuntime": "4.0.10"
+          "Microsoft.NETCore.App": "1.0.1"
         },
         "compile": {
           "netcoreapp1.0/princessrun.dll": {}
@@ -5841,12 +5829,12 @@
         "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll"
       ]
     },
-    "Moq/4.7.8": {
-      "sha512": "7LD7s3joVFdnJCJ/T0591zIgzd/JRK517H2TH0yXBn0PkbjK1JfyT4LfIhk+2ywdMOm1BXGQfcvtiI/ES2xWKQ==",
+    "Moq/4.7.9": {
+      "sha512": "6TaDTVgNWlLxfaaTsypEAPgBDSuqK5/L3PZMaB9R07UVwiLjC0SCQSgqLxxhJy20SKw7G3f/vLyjDCf6uqCqiQ==",
       "type": "package",
-      "path": "Moq/4.7.8",
+      "path": "Moq/4.7.9",
       "files": [
-        "Moq.4.7.8.nupkg.sha512",
+        "Moq.4.7.9.nupkg.sha512",
         "Moq.nuspec",
         "lib/net45/Moq.dll",
         "lib/net45/Moq.xml",
@@ -9748,34 +9736,6 @@
         "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll"
       ]
     },
-    "System.Runtime.WindowsRuntime/4.0.10": {
-      "sha512": "9w6ypdnEw8RrLRlxTbLAYrap4eL1xIQeNoOaumQVOQ8TTD/5g9FGrBtY3KLiGxAPieN9AwAAEIDkugU85Cwuvg==",
-      "type": "package",
-      "path": "System.Runtime.WindowsRuntime/4.0.10",
-      "files": [
-        "System.Runtime.WindowsRuntime.4.0.10.nupkg.sha512",
-        "System.Runtime.WindowsRuntime.nuspec",
-        "lib/netcore50/System.Runtime.WindowsRuntime.dll",
-        "lib/win81/_._",
-        "lib/wpa81/_._",
-        "ref/dotnet/System.Runtime.WindowsRuntime.dll",
-        "ref/dotnet/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/de/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/es/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/fr/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/it/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/ja/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/ko/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/ru/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/zh-hans/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/zh-hant/System.Runtime.WindowsRuntime.xml",
-        "ref/netcore50/System.Runtime.WindowsRuntime.dll",
-        "ref/netcore50/System.Runtime.WindowsRuntime.xml",
-        "ref/win81/_._",
-        "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Runtime.WindowsRuntime.dll"
-      ]
-    },
     "System.Security.Claims/4.3.0": {
       "sha512": "P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
       "type": "package",
@@ -11239,7 +11199,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Moq >= 4.7.8",
+      "Moq >= 4.7.9",
       "NETStandard.Library >= 1.6.1",
       "dotnet-test-xunit >= 2.2.0-preview2-build1029",
       "princessrun >= 1.0.0-*",

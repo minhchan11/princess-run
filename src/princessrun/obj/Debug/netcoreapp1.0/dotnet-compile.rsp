@@ -184,7 +184,6 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Loader\4.0.0\ref\netstandard1.5\System.Runtime.Loader.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Numerics\4.3.0\ref\netstandard1.1\System.Runtime.Numerics.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Serialization.Primitives\4.1.1\ref\netstandard1.3\System.Runtime.Serialization.Primitives.dll
---reference:C:\Users\epicodus\.nuget\packages\System.Runtime.WindowsRuntime\4.0.10\ref\dotnet\System.Runtime.WindowsRuntime.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Claims\4.3.0\ref\netstandard1.3\System.Security.Claims.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Cryptography.Algorithms\4.3.0\ref\netstandard1.6\System.Security.Cryptography.Algorithms.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Cryptography.Encoding\4.3.0\ref\netstandard1.3\System.Security.Cryptography.Encoding.dll
@@ -212,16 +211,8 @@ C:\Users\epicodus\Desktop\princess-run\src\princessrun\Startup.cs
 C:\Users\epicodus\Desktop\princess-run\src\princessrun\Controllers\AccountController.cs
 C:\Users\epicodus\Desktop\princess-run\src\princessrun\Controllers\HomeController.cs
 C:\Users\epicodus\Desktop\princess-run\src\princessrun\Controllers\ThingsController.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170426213314_Initial.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170426213314_Initial.Designer.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170426220304_AddTableAndThings.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170426220304_AddTableAndThings.Designer.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170426220543_AddTableAndThings1.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170426220543_AddTableAndThings1.Designer.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170426220753_AddTableAndThings2.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170426220753_AddTableAndThings2.Designer.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170427162128_AddHeroes.cs
-C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170427162128_AddHeroes.Designer.cs
+C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170502191112_Initial.cs
+C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\20170502191112_Initial.Designer.cs
 C:\Users\epicodus\Desktop\princess-run\src\princessrun\Migrations\ApplicationDbContextModelSnapshot.cs
 C:\Users\epicodus\Desktop\princess-run\src\princessrun\Models\ApplicationDbContext.cs
 C:\Users\epicodus\Desktop\princess-run\src\princessrun\Models\ApplicationUser.cs

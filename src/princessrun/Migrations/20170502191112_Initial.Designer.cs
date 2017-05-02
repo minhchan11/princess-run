@@ -8,8 +8,8 @@ using princessrun.Models;
 namespace princessrun.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20170426220543_AddTableAndThings1")]
-    partial class AddTableAndThings1
+    [Migration("20170502191112_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -174,6 +174,52 @@ namespace princessrun.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("princessrun.Models.Hero", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<byte[]>("Avatar");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Heroes");
+                });
+
+            modelBuilder.Entity("princessrun.Models.Item", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Items");
+                });
+
+            modelBuilder.Entity("princessrun.Models.Thing", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Things");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityRole")
@@ -209,6 +255,20 @@ namespace princessrun.Migrations
                         .WithMany("Roles")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("princessrun.Models.Hero", b =>
+                {
+                    b.HasOne("princessrun.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+                });
+
+            modelBuilder.Entity("princessrun.Models.Item", b =>
+                {
+                    b.HasOne("princessrun.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
                 });
         }
     }

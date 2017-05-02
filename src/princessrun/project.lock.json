@@ -3638,17 +3638,6 @@
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         }
       },
-      "System.Runtime.WindowsRuntime/4.0.10": {
-        "type": "package",
-        "dependencies": {
-          "System.IO": "4.0.0",
-          "System.Runtime": "4.0.0",
-          "System.Threading.Tasks": "4.0.0"
-        },
-        "compile": {
-          "ref/dotnet/System.Runtime.WindowsRuntime.dll": {}
-        }
-      },
       "System.Security.Claims/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9651,34 +9640,6 @@
         "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll"
       ]
     },
-    "System.Runtime.WindowsRuntime/4.0.10": {
-      "sha512": "9w6ypdnEw8RrLRlxTbLAYrap4eL1xIQeNoOaumQVOQ8TTD/5g9FGrBtY3KLiGxAPieN9AwAAEIDkugU85Cwuvg==",
-      "type": "package",
-      "path": "System.Runtime.WindowsRuntime/4.0.10",
-      "files": [
-        "System.Runtime.WindowsRuntime.4.0.10.nupkg.sha512",
-        "System.Runtime.WindowsRuntime.nuspec",
-        "lib/netcore50/System.Runtime.WindowsRuntime.dll",
-        "lib/win81/_._",
-        "lib/wpa81/_._",
-        "ref/dotnet/System.Runtime.WindowsRuntime.dll",
-        "ref/dotnet/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/de/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/es/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/fr/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/it/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/ja/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/ko/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/ru/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/zh-hans/System.Runtime.WindowsRuntime.xml",
-        "ref/dotnet/zh-hant/System.Runtime.WindowsRuntime.xml",
-        "ref/netcore50/System.Runtime.WindowsRuntime.dll",
-        "ref/netcore50/System.Runtime.WindowsRuntime.xml",
-        "ref/win81/_._",
-        "ref/wpa81/_._",
-        "runtimes/win8-aot/lib/netcore50/System.Runtime.WindowsRuntime.dll"
-      ]
-    },
     "System.Security.Claims/4.3.0": {
       "sha512": "P/+BR/2lnc4PNDHt/TPBAWHVMLMRHsyYZbU1NphW4HIWzCggz8mJbTQQ3MKljFE7LS3WagmVFuBgoLcFzYXlkA==",
       "type": "package",
@@ -10935,8 +10896,7 @@
       "Microsoft.Extensions.Configuration.FileExtensions >= 1.0.0",
       "Microsoft.Extensions.Configuration.Json >= 1.0.0",
       "Microsoft.Extensions.Logging.Console >= 1.0.0",
-      "Microsoft.NETCore.App >= 1.0.1",
-      "System.Runtime.WindowsRuntime >= 4.0.10"
+      "Microsoft.NETCore.App >= 1.0.1"
     ],
     ".NETCoreApp,Version=v1.0": []
   },

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "1d659eee084d893da17ccd6a6a4983a33d8c4908"
+    "signature": "10dfda15b6a160b014620b021a9582da3f7fb33b"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,7 +12,7 @@
           "NETStandard.Library": "1.6.1",
           "xunit": "2.1.0",
           "dotnet-test-xunit": "2.2.0-preview2-build1029",
-          "Moq": "4.7.8"
+          "Moq": "4.7.9"
         },
         "runtime": {
           "princessrun.Tests.dll": {}
@@ -1127,7 +1127,7 @@
           }
         }
       },
-      "Moq/4.7.8": {
+      "Moq/4.7.9": {
         "dependencies": {
           "Castle.Core": "4.0.0",
           "System.Collections": "4.3.0",
@@ -2210,13 +2210,6 @@
           "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
         }
       },
-      "System.Runtime.WindowsRuntime/4.0.10": {
-        "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Threading.Tasks": "4.3.0"
-        }
-      },
       "System.Security.Claims/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -2708,8 +2701,7 @@
           "Microsoft.Extensions.Configuration.Json": "1.0.0",
           "Microsoft.AspNetCore.StaticFiles": "1.0.0",
           "Microsoft.AspNet.Http.Extensions": "1.0.0-rc1-final",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.1",
-          "System.Runtime.WindowsRuntime": "4.0.10"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.1"
         },
         "runtime": {
           "princessrun.dll": {}
@@ -3168,10 +3160,10 @@
       "serviceable": true,
       "sha512": "sha512-Lw1/VwLH1yxz6SfFEjVRCN0pnflLEsWgnV4qsdJ512/HhTwnKXUG+zDQ4yTO3K/EJQemGoNaBHX5InISNKTzUQ=="
     },
-    "Moq/4.7.8": {
+    "Moq/4.7.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7LD7s3joVFdnJCJ/T0591zIgzd/JRK517H2TH0yXBn0PkbjK1JfyT4LfIhk+2ywdMOm1BXGQfcvtiI/ES2xWKQ=="
+      "sha512": "sha512-6TaDTVgNWlLxfaaTsypEAPgBDSuqK5/L3PZMaB9R07UVwiLjC0SCQSgqLxxhJy20SKw7G3f/vLyjDCf6uqCqiQ=="
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",
@@ -3592,11 +3584,6 @@
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
-    },
-    "System.Runtime.WindowsRuntime/4.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-9w6ypdnEw8RrLRlxTbLAYrap4eL1xIQeNoOaumQVOQ8TTD/5g9FGrBtY3KLiGxAPieN9AwAAEIDkugU85Cwuvg=="
     },
     "System.Security.Claims/4.3.0": {
       "type": "package",

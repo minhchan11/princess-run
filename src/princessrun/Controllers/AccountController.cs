@@ -8,7 +8,6 @@ using princessrun.Models;
 using Microsoft.AspNetCore.Identity;
 using princessrun.ViewModels;
 using Microsoft.AspNetCore.Http;
-using System.Runtime.InteropServices.WindowsRuntime;
 using System.Security.Claims;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860

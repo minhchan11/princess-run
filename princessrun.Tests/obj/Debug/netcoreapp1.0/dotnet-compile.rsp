@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\desktop\princess-run\princessrun.Tests\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\desktop\princess-run\princessrun.Tests\bin\Debug\netcoreapp1.0\princessrun.Tests.dll
+--temp-output:C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\bin\Debug\netcoreapp1.0\princessrun.Tests.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -101,7 +101,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Win32.Primitives\4.3.0\ref\netstandard1.3\Microsoft.Win32.Primitives.dll
 --reference:C:\Users\epicodus\.nuget\packages\Microsoft.Win32.Registry\4.3.0\ref\netstandard1.3\Microsoft.Win32.Registry.dll
---reference:C:\Users\epicodus\.nuget\packages\Moq\4.7.8\lib\netstandard1.3\Moq.dll
+--reference:C:\Users\epicodus\.nuget\packages\Moq\4.7.9\lib\netstandard1.3\Moq.dll
 --reference:C:\Users\epicodus\.nuget\packages\Newtonsoft.Json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll
 --reference:C:\Users\epicodus\.nuget\packages\NuGet.Common\3.5.0-beta2-1484\lib\netstandard1.3\NuGet.Common.dll
 --reference:C:\Users\epicodus\.nuget\packages\NuGet.Frameworks\3.5.0-beta2-1484\lib\netstandard1.3\NuGet.Frameworks.dll
@@ -180,7 +180,6 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Loader\4.0.0\ref\netstandard1.5\System.Runtime.Loader.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Numerics\4.3.0\ref\netstandard1.1\System.Runtime.Numerics.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Runtime.Serialization.Primitives\4.1.1\ref\netstandard1.3\System.Runtime.Serialization.Primitives.dll
---reference:C:\Users\epicodus\.nuget\packages\System.Runtime.WindowsRuntime\4.0.10\ref\dotnet\System.Runtime.WindowsRuntime.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Claims\4.3.0\ref\netstandard1.3\System.Security.Claims.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Cryptography.Algorithms\4.3.0\ref\netstandard1.6\System.Security.Cryptography.Algorithms.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Security.Cryptography.Encoding\4.3.0\ref\netstandard1.3\System.Security.Cryptography.Encoding.dll
@@ -210,7 +209,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\xunit.extensibility.execution\2.1.0\lib\dotnet\xunit.execution.dotnet.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll
---reference:C:\Users\epicodus\desktop\princess-run\src\princessrun\bin\Debug\netcoreapp1.0\princessrun.dll
-C:\Users\epicodus\desktop\princess-run\princessrun.Tests\ThingTest.cs
-C:\Users\epicodus\desktop\princess-run\princessrun.Tests\ControllerTests\ThingControllerTest.cs
-C:\Users\epicodus\desktop\princess-run\princessrun.Tests\Properties\AssemblyInfo.cs
+--reference:C:\Users\epicodus\Desktop\princess-run\src\princessrun\bin\Debug\netcoreapp1.0\princessrun.dll
+C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\ThingTest.cs
+C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\ControllerTests\ThingControllerTest.cs
+C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\Properties\AssemblyInfo.cs
