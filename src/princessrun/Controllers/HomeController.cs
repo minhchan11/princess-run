@@ -12,10 +12,13 @@ using System.Security.Claims;
 
 namespace princessrun.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ApplicationDbContext _db;
         private readonly UserManager<ApplicationUser> _userManager;
+
+        public ActionContext ActionContext { get; set; }
 
         public HomeController (UserManager<ApplicationUser> userManager, ApplicationDbContext db)
         {

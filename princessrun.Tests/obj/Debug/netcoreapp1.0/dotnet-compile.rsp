@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\bin\Debug\netcoreapp1.0\princessrun.Tests.dll
+--temp-output:C:\Users\epicodus\desktop\princess-run\princessrun.Tests\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\desktop\princess-run\princessrun.Tests\bin\Debug\netcoreapp1.0\princessrun.Tests.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -209,7 +209,7 @@
 --reference:C:\Users\epicodus\.nuget\packages\xunit.extensibility.execution\2.1.0\lib\dotnet\xunit.execution.dotnet.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll
 --reference:C:\Users\epicodus\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll
---reference:C:\Users\epicodus\Desktop\princess-run\src\princessrun\bin\Debug\netcoreapp1.0\princessrun.dll
-C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\ThingTest.cs
-C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\ControllerTests\ThingControllerTest.cs
-C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\Properties\AssemblyInfo.cs
+--reference:C:\Users\epicodus\desktop\princess-run\src\princessrun\bin\Debug\netcoreapp1.0\princessrun.dll
+C:\Users\epicodus\desktop\princess-run\princessrun.Tests\ThingTest.cs
+C:\Users\epicodus\desktop\princess-run\princessrun.Tests\ControllerTests\ThingControllerTest.cs
+C:\Users\epicodus\desktop\princess-run\princessrun.Tests\Properties\AssemblyInfo.cs

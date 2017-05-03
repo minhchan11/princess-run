@@ -8,8 +8,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\bin\Debug\netcoreapp1.0\princessrun.Tests.dll"
+"C:\Users\epicodus\desktop\princess-run\princessrun.Tests\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\epicodus\desktop\princess-run\princessrun.Tests\bin\Debug\netcoreapp1.0\princessrun.Tests.dll"
 -r:"C:\Users\epicodus\.nuget\packages\Castle.Core\4.0.0\lib\netstandard1.3\Castle.Core.dll"
 -r:"C:\Users\epicodus\.nuget\packages\dotnet-test-xunit\2.2.0-preview2-build1029\lib\netcoreapp1.0\dotnet-test-xunit.dll"
 -r:"C:\Users\epicodus\.nuget\packages\Microsoft.AspNet.Http.Abstractions\1.0.0-rc1-final\lib\dotnet5.4\Microsoft.AspNet.Http.Abstractions.dll"
@@ -207,7 +207,7 @@
 -r:"C:\Users\epicodus\.nuget\packages\xunit.extensibility.execution\2.1.0\lib\dotnet\xunit.execution.dotnet.dll"
 -r:"C:\Users\epicodus\.nuget\packages\xunit.runner.reporters\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.reporters.dotnet.dll"
 -r:"C:\Users\epicodus\.nuget\packages\xunit.runner.utility\2.2.0-beta2-build3300\lib\netstandard1.1\xunit.runner.utility.dotnet.dll"
--r:"C:\Users\epicodus\Desktop\princess-run\src\princessrun\bin\Debug\netcoreapp1.0\princessrun.dll"
-"C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\ThingTest.cs"
-"C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\ControllerTests\ThingControllerTest.cs"
-"C:\Users\epicodus\Desktop\princess-run\princessrun.Tests\Properties\AssemblyInfo.cs"
+-r:"C:\Users\epicodus\desktop\princess-run\src\princessrun\bin\Debug\netcoreapp1.0\princessrun.dll"
+"C:\Users\epicodus\desktop\princess-run\princessrun.Tests\ThingTest.cs"
+"C:\Users\epicodus\desktop\princess-run\princessrun.Tests\ControllerTests\ThingControllerTest.cs"
+"C:\Users\epicodus\desktop\princess-run\princessrun.Tests\Properties\AssemblyInfo.cs"
