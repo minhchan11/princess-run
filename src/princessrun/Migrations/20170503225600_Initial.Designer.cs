@@ -8,7 +8,7 @@ using princessrun.Models;
 namespace princessrun.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20170502191112_Initial")]
+    [Migration("20170503225600_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

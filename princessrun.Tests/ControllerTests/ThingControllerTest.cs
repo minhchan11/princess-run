@@ -68,15 +68,25 @@ namespace princessrun.Tests.ControllerTests
             .UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=PrincessRun;integrated security=True")
             .Options;
             var _db = new ApplicationDbContext(contextOptions);
-            var controller = new HomeController(_userManager, _db);
-            controller.ControllerContext = new ControllerContext
+            var claims = new List<Claim>{
+   new Claim("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name", "minh"),
+   new Claim("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier", "d6bd1dba-a01b-460f-8731-f357c9ee4452")
+ };
+            var mockUser = new GenericIdentity("");
+            mockUser.AddClaims(claims);
+            
+
+            var m_HttpContext = new MockHttpContext
             {
-                HttpContext = new MockHttpContext
-                {
-                    User = new GenericPrincipal(new GenericIdentity("minh"), null)
-                }  
+                User = new GenericPrincipal(mockUser, null)
             };
             
+            var m_controllerContext = new Mock<ControllerContext>();
+            m_controllerContext.Setup(t => t.HttpContext).Returns(m_HttpContext);
+            var userStore = new Mock<IUserStore<ApplicationUser>>();
+            var m_userManager = new Mock<UserManager<ApplicationUser>>(userStore.Object);
+            var controller = new HomeController(m_userManager.Object, _db);
+            controller.ControllerContext = m_controllerContext.Object;
             var result = await controller.Index();
             Console.WriteLine(result);
             Assert.NotNull(result);
@@ -88,5 +98,6 @@ namespace princessrun.Tests.ControllerTests
         {
             public override ClaimsPrincipal User { get; set; }
         }
+
     }
 }

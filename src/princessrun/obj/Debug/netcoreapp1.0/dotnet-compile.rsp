@@ -211,8 +211,8 @@ C:\Users\epicodus\desktop\princess-run\src\princessrun\Startup.cs
 C:\Users\epicodus\desktop\princess-run\src\princessrun\Controllers\AccountController.cs
 C:\Users\epicodus\desktop\princess-run\src\princessrun\Controllers\HomeController.cs
 C:\Users\epicodus\desktop\princess-run\src\princessrun\Controllers\ThingsController.cs
-C:\Users\epicodus\desktop\princess-run\src\princessrun\Migrations\20170502191112_Initial.cs
-C:\Users\epicodus\desktop\princess-run\src\princessrun\Migrations\20170502191112_Initial.Designer.cs
+C:\Users\epicodus\desktop\princess-run\src\princessrun\Migrations\20170503225600_Initial.cs
+C:\Users\epicodus\desktop\princess-run\src\princessrun\Migrations\20170503225600_Initial.Designer.cs
 C:\Users\epicodus\desktop\princess-run\src\princessrun\Migrations\ApplicationDbContextModelSnapshot.cs
 C:\Users\epicodus\desktop\princess-run\src\princessrun\Models\ApplicationDbContext.cs
 C:\Users\epicodus\desktop\princess-run\src\princessrun\Models\ApplicationUser.cs
